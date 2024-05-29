@@ -1,0 +1,8 @@
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Wyrównanie treści do góry */
+    margin-top: -150px; /* Wysokość górnego navbaru */
+    padding: 20px; /* Dodatkowy padding */
+    height: calc(100vh - 64px); /* Wysokość ekranu minus wysokość górnego navbaru */
+  }

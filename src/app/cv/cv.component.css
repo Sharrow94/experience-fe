@@ -1,0 +1,21 @@
+.a4-paper {
+    width: calc(210mm * 0.8);
+    height: calc(297mm * 0.8);
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     margin-top: auto; /* Wyrównanie do góry */
+     display: flex;
+  }
+
+  .left-column {
+    flex: 0 0 30%;
+    background-color:#EEAA2C;
+    color: white;
+    padding: 20px;
+  }
+  
+  .right-column {
+    flex: 0 0 70%;
+    padding: 20px;
+  }
